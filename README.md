@@ -43,11 +43,11 @@ POST RAW
 }
 </code></pre>
 * target
- *  요청할 Elasticsearch Cluster 의 RESTful Endpoint 를 작성 하시면 됩니다.
- * {YOUR-INDEX} 는 alias, single index, multi index  모두 사용 가능 합니다.
+  *  요청할 Elasticsearch Cluster 의 RESTful Endpoint 를 작성 하시면 됩니다.
+  * {YOUR-INDEX} 는 alias, single index, multi index  모두 사용 가능 합니다.
 * query
- * 기존에 사용하시던 QueryDSL 문을 그대로 넣어 주시면 됩니다.
- * match_all  query 가 실행 됩니다.
+  * 기존에 사용하시던 QueryDSL 문을 그대로 넣어 주시면 됩니다.
+  * match_all  query 가 실행 됩니다.
 
 ## Multi Request Example)
 <pre><code>
