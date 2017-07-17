@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean name="httpRequestConfigModel" class="org.elasticsearch.client.esquery.model.HttpRequestConfigModel">
+    <property name="socketTimeout" value="10000" />
+    <property name="connectionTimeout" value="10000" />
+    <property name="connectionRequestTimeout" value="10000" />
+    <property name="headerContentTypeJsonUtf8" value="application/json; charset=utf-8" />
+    <property name="mimeTypeJson" value="application/json" />
+  </bean>
+
+  <bean name="queryRequestBO" class="org.elasticsearch.client.esquery.bo.QueryRequestBOImpl">
+    <property name="httpRequestConfigModel" ref="httpRequestConfigModel" />
+  </bean>
+
+  <bean name="searchRequestByQueryStringModel" class="org.elasticsearch.client.esquery.model.SearchRequestByQueryStringModel" />
+</beans>
