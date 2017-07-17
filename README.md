@@ -22,8 +22,8 @@ Elasticsearch 를 서비스 용도로 많은 분들이 사용하고 계시는 �
 
 ## 지원 가능한 API)
 * Elasticsearch에서 제공하는 거의 모든 RESTful API 를 제공 합니다.
- * HTTP POST 만 구현해 놨기 때문에 POST 를 지원하지 않는 API 는 동작 하지 않습니다.
- * 조만간 시간 나는데로 추가해 보겠습니다.
+ ** HTTP POST 만 구현해 놨기 때문에 POST 를 지원하지 않는 API 는 동작 하지 않습니다.
+ ** 조만간 시간 나는데로 추가해 보겠습니다.
 * Single Request 뿐만 아니라 Multi Request 도 지원 합니다.
 * Single Cluster 뿐만 아니라 Multi Cluster 로 Request 를 보낼 수 있습니다.
  *  서로 다른 Version 의 Cluster 라도 상관 없습니다.
