@@ -30,7 +30,7 @@ Elasticsearch 를 서비스 용도로 많은 분들이 사용하고 계시는 �
 
 ## Single Request Example)
 <pre><code>
-[WAS]
+[WAS Endpoint]
 http://localhost:8080/query
 
 [Method]
@@ -51,7 +51,7 @@ POST RAW
 
 ## Multi Request Example)
 <pre><code>
-[WAS]
+[WAS Endpoint]
 http://localhost:8080/mquery
 
 [Method]
